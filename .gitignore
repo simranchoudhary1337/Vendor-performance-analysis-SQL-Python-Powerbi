@@ -1,0 +1,5 @@
+ECHO is on.
+__pycache__/ 
+data/ 
+.ipynb_checkpoints/ 
+inventory.db 
