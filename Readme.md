@@ -6,16 +6,16 @@ decisions using SQL, Python and PowerBi._
 ---
 
 # Table of Contents
-<a href="#overview">Overview</a>
-<a href="#business-problem">Business Problem</a>
-<a href="#dataset">Dataset</a>
-<a href="#tools-technologies">Tools & Technologies</a>
-<a href="#data-cleaning-preparation">Data cleaning & Preparation</a>
-<a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a>
-<a href="#research-questions-key-finding">Research Questions & Key Finding</a>
-<a href="#dashboard">Dashboard</a>
-<a href="#final-recommendations">Final Recommendations</a>
-<a href="#author-contact">Author Contact</a>
+<a href="#overview">Overview</a><br>
+<a href="#business-problem">Business Problem</a><br>
+<a href="#dataset">Dataset</a><br>
+<a href="#tools-technologies">Tools & Technologies</a><br>
+<a href="#data-cleaning-preparation">Data cleaning & Preparation</a><br>
+<a href="#exploratory-data-analysis-eda">Exploratory Data Analysis (EDA)</a><br>
+<a href="#research-questions-key-finding">Research Questions & Key Finding</a><br>
+<a href="#dashboard">Dashboard</a><br>
+<a href="#final-recommendations">Final Recommendations</a><br>
+<a href="#author-contact">Author Contact</a><br>
 
 ---
 <h2><a class="anchor" id="overview"></a>Overview</h2>
@@ -25,52 +25,52 @@ Pyhton for analysis and hypothesis testing, and Power BI for visualization.
 
 ---
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
-This project aims to:
--Identify underperforming brands needing pricing or promotional adjustments.
--Determine vendor contributions to sales and profits.
--Analyze the cost-benefit of bulk purchasing.
--Investigate inventory turnover inefficiencies.
+This project aims to:<br>
+-Identify underperforming brands needing pricing or promotional adjustments.<br>
+-Determine vendor contributions to sales and profits.<br>
+-Analyze the cost-benefit of bulk purchasing.<br>
+-Investigate inventory turnover inefficiencies.<br>
 -Statistically validate differences in vendor profitability.
 
 ---
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
 
--Multiple CSVs file located in data forlder.
+-Multiple CSVs file located in data forlder.<br>
 -Summary table created from ingested data and used for analysis.
 
 ---
 <h2><a class="anchor" id="tools-technologies"></a>Tool's and Technologies</h2>
 
--SQL(CTEs, Joins, Filtering)
--Python(Pandas, Matplotlib, Seaborn, Scipy)
--Power Bi(Visualization)
+-SQL(CTEs, Joins, Filtering)<br>
+-Python(Pandas, Matplotlib, Seaborn, Scipy)<br>
+-Power Bi(Visualization)<br>
 -GitHub
 
 ---
 <h2><a class="anchor" id="data-cleaning-preparation"></a>Data cleaning & Preparation</h2>
 
--Removed transactions with:
-    •	Gross Profit <= 0 
-    •	Profit Margin <=0 
-    •	Total Sales Quantity = 0 
-  -Created summary tables with vendor-level metrics
+-Removed transactions with:<br>
+    •	Gross Profit <= 0 <br>
+    •	Profit Margin <=0 <br>
+    •	Total Sales Quantity = 0 <br>
+  -Created summary tables with vendor-level metrics<br>
   -Converted data types, handled outliers, merged lookups tables
 
 ---
 <h2><a class="anchor" id="exploratory-data-analysis-eda"></a>Exploratory Data Analysis (EDA)</h2>
 
 **NEGATIVE & ZERO VALUES:**
--Gross Profit: MIN -52002.78(loss making sales)
--Profit margin: Min -infinity (sales at 0 or below cost)
+-Gross Profit: MIN -52002.78(loss making sales)<br>
+-Profit margin: Min -infinity (sales at 0 or below cost)<br>
 -Unsold Inventory: Indications slow moving stock
 
 **OUTLIERS IDENTIFIED:**
--High freight cost (upto 275K)
+-High freight cost (upto 275K)<br>
 -Large Purchase/Actual Prices
 
 **Correlation Insights**
--Weak between Purchase Price and Profit
--Strong between Purchase and Sales quantity
+-Weak between Purchase Price and Profit<br>
+-Strong between Purchase and Sales quantity<br>
 -Negative between Profit margin and Sales price
 
 ---
@@ -92,17 +92,17 @@ Low Vendors: Mean: 41.57%
 ---
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations"</h2>
 
--Diversify Vendor base to reduce risks
--Optimize bulk order strategies
--Reprice slow-moving, high pricing brands
--Clear unsold inventory wisely
+-Diversify Vendor base to reduce risks<br>
+-Optimize bulk order strategies<br>
+-Reprice slow-moving, high pricing brands<br>
+-Clear unsold inventory wisely<br>
 -Improve marketing for under performing brands
 
 ---
 <h><a class="anchor" id="author-contact"></a>Author Contact</h2>
 
 **Simran Choudhary**
-Data Analyst
-Email: choudharysimran235002@gmail.com
-[LinkedIn](https://www.linkedin.com/in/simran-choudhary-04a953299/)
+Data Analyst <br>
+Email: choudharysimran235002@gmail.com <br>
+[LinkedIn](https://www.linkedin.com/in/simran-choudhary-04a953299/) <br>
 [Portfolio](https://portfoliosimran23.netlify.app/)
