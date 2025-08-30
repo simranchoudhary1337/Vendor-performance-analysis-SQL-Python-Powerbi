@@ -1,6 +1,6 @@
 # Vendor Performance Analysis | Retail Inventory & Sales
 
-_Analyzing vendor efficiencyand profitability to support strategic purchasing and inventory 
+_Analyzing vendor efficiency and profitability to support strategic purchasing and inventory 
 decisions using SQL, Python and PowerBi._
 
 ---
@@ -90,7 +90,7 @@ Low Vendors: Mean: 41.57%
 ![Vendor Performance Dashboard](images/Dashboard.png)
 
 ---
-<h2><a class="anchor" id="final-recommendations"></a>Final Recommendations"</h2>
+<h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
 -Diversify Vendor base to reduce risks<br>
 -Optimize bulk order strategies<br>
